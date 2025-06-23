@@ -79,7 +79,7 @@ export const EntryCard: React.FC<EntryCardProps> = ({
             
             {/* ドロップダウンメニュー */}
             {showMenu && (
-              <div className="absolute right-0 top-8 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-10 min-w-[120px]">
+              <div className="absolute right-0 top-8 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-[1000] min-w-[120px]">
                 <button
                   onClick={handleEdit}
                   className="w-full px-3 py-2 text-left text-sm text-gray-700 hover:bg-gray-50 flex items-center"
@@ -171,13 +171,6 @@ export const EntryCard: React.FC<EntryCardProps> = ({
         </div>
       )}
 
-      {/* メニューを閉じるためのオーバーレイ */}
-      {showMenu && (
-        <div 
-          className="fixed inset-0 z-5"
-          onClick={() => setShowMenu(false)}
-        />
-      )}
     </motion.div>
   );
 };

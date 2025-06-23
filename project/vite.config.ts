@@ -7,4 +7,15 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    proxy: {
+      // Supabase APIへのプロキシ設定でSSL検証を無効化
+      '/rest': {
+        target: 'https://sjvgdiwiolycbatblsaf.supabase.co',
+        changeOrigin: true,
+        secure: false, // SSL証明書検証を無効化
+        rewrite: (path) => path.replace(/^\/rest/, '/rest'),
+      },
+    },
+  },
 });
