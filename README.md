@@ -250,21 +250,3 @@ npm run lint
 4. ブランチにプッシュ (`git push origin feature/amazing-feature`)
 5. プルリクエストを作成
 
-## 📝 ライセンス
-
-このプロジェクトはMITライセンスの下で公開されています。詳細は [LICENSE](LICENSE) ファイルを参照してください。
-
-## 🆘 サポート
-
-問題が発生した場合は、[Issues](https://github.com/your-username/mind-journal/issues) で報告してください。
-
-## 🙏 謝辞
-
-- [Supabase](https://supabase.com/) - 素晴らしいBaaSプラットフォーム
-- [Tailwind CSS](https://tailwindcss.com/) - 美しいデザインシステム
-- [Lucide](https://lucide.dev/) - 高品質なアイコンライブラリ
-- [Framer Motion](https://www.framer.com/motion/) - 滑らかなアニメーション
-
----
-
-**Mind Journal** - あなたの内なる声に耳を傾け、マインドフルな生活を送るためのパートナー 🌱 
